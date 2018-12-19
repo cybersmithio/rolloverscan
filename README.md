@@ -11,6 +11,8 @@ For this script to run properly, the scans it is examining should be finished.  
 # Example
 
 This is usage with environment variables:
-   export TIO_ACCESS_KEY="********************"
-   export TIO_SECRET_KEY="********************"
-   python3 ./rolloverscan.py --scanname "My basic vulnerability scan" --hours 72
+```
+export TIO_ACCESS_KEY="********************"
+export TIO_SECRET_KEY="********************"
+python3 ./rolloverscan.py --scanname "My basic vulnerability scan" --hours 72
+```
